@@ -1,0 +1,242 @@
+.container{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+/* Header Styles */
+.header{
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/4;
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.navbar {
+    display: flex;
+    padding-left: 420px;
+    gap: 20px;
+    
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(53, 41, 41);
+    text-align: center;
+    
+}
+
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* Left Sidebar Style */
+
+.left-sidebar{
+    position: relative;
+    top: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 775px;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 80px;
+    
+}
+.leftborder{
+    border: 2px solid rgba(0, 0, 0, 0.276);
+    height: 380px;
+    border-radius: 10px;
+
+}
+.leftborder2{
+    margin-top: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.276);
+    height: 380px;
+    border-radius: 10px;
+}
+.bgimg img {
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pfimage{
+    position: absolute;
+    top: 35px;
+    left: 145px;
+}
+#yash{
+    position: relative;
+    top: 50px;
+    left: 145px;
+}
+#yashid{
+    position: relative;
+    top: 55px;
+    left: 82px;
+}
+
+#conn{
+    position: relative;
+    top: 65px;
+    margin: 8px;
+}
+#conn1{
+    position: relative;
+    top: 40px;
+    left: 90%;
+    color: blue;
+}
+#grow{
+    position: relative;
+    top: 40px;
+    margin: 8px;
+}
+
+/* main-1 style */
+
+.main-1{
+    display: flex;
+    position: relative;
+    top: 30px;
+    background-color: white;
+    height: 100px;
+    margin-right: 12px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.start{
+    display: flex;
+    width: 550px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+   
+}
+.start2 a{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    height: 20px;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* right sidebar style */
+
+.right-sidebar{
+    position: relative;
+    top: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 80%;
+    border-radius: 10px;
+}
+.right-sidebar2{
+    position:relative;
+    top: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.right-sidebar3{
+    position:relative;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* main-2 style */
+
+.main-2{ 
+    position: absolute;
+    top: 204px;
+    left: 455px;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 595px;
+    border-radius: 10px;
+}
+.my1{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.my1 p{
+    position: absolute;
+    left: 50px;
+    font-size: small;
+    padding: 2px;
+    
+}
+.demo img{
+    position: absolute;
+    top: 75px;
+    width: 100%;
+}
+.demo2 img{
+    position: relative;
+    top: 405px;
+    left: 15px;
+}
+.demo3 {
+    display: flex;
+    position: relative;
+    top: 430px;
+    left: 15px;
+    gap: 20px;
+}
+
+/* main-3 style */
+
+.main-3{
+    position: absolute;
+    top: 720px;
+    left: 455px;
+    background-color: rgb(255, 255, 255);
+    height: 585px;
+    width: 595px;
+    border-radius: 10px;
+}
+.item1{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.item1 p{
+    position: absolute;
+    left: 50px;
+    font-size: small;
+    padding: 2px;
+}
+.para{
+    position: relative;
+    top: 60px;
+    margin: 8px;
+    padding: 5px;
+    text-align: justify;
+}
+.video{
+    position: relative;
+    top: 60px;
+}
+.smallicon{
+    position: relative;
+    top: 63px;
+    left: 15px;   
+}
+.smallicon2{
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: 15px;
+    gap: 20px;
+}
